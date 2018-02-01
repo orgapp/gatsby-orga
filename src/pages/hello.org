@@ -1,4 +1,5 @@
 #+TITLE: Hello Org
+#+DATE: 2018-01-01
 
 * This is a Test
 

@@ -51,7 +51,6 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     const parsedFilePath = path.parse(node.absolutePath)
     // const slug = `/${parsedFilePath.dir.split(`---`)[1]}/`
     const slug = `/${parsedFilePath.name}/`
-    console.log(`slug`, slug)
     createNodeField({ node, name: `slug`, value: slug })
   } else if (
     node.internal.type === `Orga` &&
