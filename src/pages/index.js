@@ -18,9 +18,8 @@ class BlogIndex extends React.Component {
     })
     return (
       <div>
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+        <h1>Hi org-mode people</h1>
+        <p>Welcome to your new org-mode based Gatsby site.</p>
         {_posts}
       </div>
     )

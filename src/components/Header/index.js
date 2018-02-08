@@ -1,13 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import style from './_style.module.css'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
+  <div className={style.container}>
     <div
       style={{
         margin: '0 auto',
@@ -19,11 +15,11 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: 'gray',
             textDecoration: 'none',
           }}
         >
-          Gatsby + org-mode
+          Gatsby + Orga
         </Link>
       </h1>
     </div>

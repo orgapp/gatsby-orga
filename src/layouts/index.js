@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
-import './index.css'
+/* import './index.css'*/
 import 'prismjs/themes/prism-solarizedlight.css'
 
 const TemplateWrapper = ({ children }) => (
@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
+        maxWidth: 720,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
       }}
