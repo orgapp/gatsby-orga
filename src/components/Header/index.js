@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Gatsby + org-mode
         </Link>
       </h1>
     </div>

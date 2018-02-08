@@ -4,14 +4,14 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import './index.css'
+import 'prismjs/themes/prism-solarizedlight.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Gatsby with Orga"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'keywords', content: 'gatsbyjs, org-mode, orga' },
       ]}
     />
     <Header />

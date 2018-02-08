@@ -11,6 +11,12 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
-    `gatsby-transformer-orga`
+    {
+      resolve: `gatsby-transformer-orga`,
+      options: {
+        // if you don't want to have server side prism code highlight
+        // noHighlight: true,
+      },
+    }
   ],
 };
