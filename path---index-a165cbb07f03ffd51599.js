@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{300:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Gatsby Orga Starter"}},allOrga:{edges:[{node:{fields:{slug:"/hello/"},meta:{date:"2018-01-01",title:"Hello Org"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-a165cbb07f03ffd51599.js.map
