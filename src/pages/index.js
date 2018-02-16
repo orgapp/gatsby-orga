@@ -35,16 +35,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    allOrga(sort: { fields: [meta___date], order: DESC }) {
+    allOrga {
       edges {
         node {
           fields {
             slug
           }
-          meta {
-            date
-            title
-          }
+          meta
         }
       }
     }

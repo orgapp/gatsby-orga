@@ -96,3 +96,7 @@ Great clouds overhead
 <h3>A Headline</h3>
 <p>And a Paragraph.</p>
 #+END_EXPORT
+
+* Image
+
+[[https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png][GitHub]]
