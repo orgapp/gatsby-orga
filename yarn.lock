@@ -3205,9 +3205,9 @@ gatsby-react-router-scroll@^1.0.11:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-filesystem@^1.5.19:
-  version "1.5.19"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-1.5.19.tgz#bce5596d525f2098624a0c99c27d956fcb753c3d"
+gatsby-source-filesystem@^1.5.20:
+  version "1.5.20"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-1.5.20.tgz#5f5bc8989497795adee7302451174ef5eaf6086d"
   dependencies:
     babel-cli "^6.26.0"
     babel-runtime "^6.26.0"
@@ -3221,22 +3221,25 @@ gatsby-source-filesystem@^1.5.19:
     slash "^1.0.0"
     valid-url "^1.0.9"
 
-gatsby-transformer-orga@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-0.2.6.tgz#af5ea17d1d69c7ab72aa6845edce509a22a081fa"
+gatsby-transformer-orga@^0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-0.2.9.tgz#c6e6e5a27385e682e85e09f553111d094bbf4bde"
   dependencies:
     bluebird "^3.5.1"
     graphql-type-json "^0.1.4"
     hast-util-to-html "^3.1.0"
-    oast-to-hast "^0.2.6"
+    mime "^2.2.0"
+    oast-to-hast "^0.2.7"
     org "^0.2.0"
-    orga "^0.2.5"
+    orga "^0.2.7"
     rehype-stringify "^3.0.0"
     unified "^6.1.6"
+    unist-builder "^1.0.2"
+    unist-util-visit "^1.3.0"
 
-gatsby@^1.9.199:
-  version "1.9.199"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.199.tgz#8d23dcd1d3b33d012074cc8a439174dfc5a700f6"
+gatsby@^1.9.202:
+  version "1.9.202"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.202.tgz#05bbf7429b860474956c22378c681ff3888139c3"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -4993,6 +4996,10 @@ mime@^1.3.6, mime@^1.5.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
 
+mime@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-2.2.0.tgz#161e541965551d3b549fa1114391e3a3d55b923b"
+
 mimic-fn@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.1.0.tgz#e667783d92e89dbd342818b5230b9d62a672ad18"
@@ -5294,10 +5301,11 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-oast-to-hast@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/oast-to-hast/-/oast-to-hast-0.2.6.tgz#8990e7f05db8a518b430e137ecd23170afa1f6ad"
+oast-to-hast@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/oast-to-hast/-/oast-to-hast-0.2.7.tgz#20864aeb4fd63c022b9967a936c34fe19d7a1eb7"
   dependencies:
+    mime "^2.2.0"
     prismjs "^1.11.0"
     unist-builder "^1.0.2"
 
@@ -5417,9 +5425,9 @@ org@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/org/-/org-0.2.0.tgz#d76378387dc506fb8e3ccff73a0ad04e3afc6391"
 
-orga@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/orga/-/orga-0.2.5.tgz#d98e12ba3040fe5df4b1b2aed8a82f4d12899de0"
+orga@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/orga/-/orga-0.2.7.tgz#8c15ba2dcab38b05c7cd52f2a099ba4847f054c9"
 
 original@>=0.0.5:
   version "1.0.0"
@@ -8049,13 +8057,19 @@ unist-builder@^1.0.2:
   dependencies:
     object-assign "^4.1.0"
 
-unist-util-is@^2.0.0:
+unist-util-is@^2.0.0, unist-util-is@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-2.1.1.tgz#0c312629e3f960c66e931e812d3d80e77010947b"
 
 unist-util-stringify-position@^1.0.0, unist-util-stringify-position@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-stringify-position/-/unist-util-stringify-position-1.1.1.tgz#3ccbdc53679eed6ecf3777dd7f5e3229c1b6aa3c"
+
+unist-util-visit@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.3.0.tgz#41ca7c82981fd1ce6c762aac397fc24e35711444"
+  dependencies:
+    unist-util-is "^2.1.1"
 
 units-css@^0.4.0:
   version "0.4.0"

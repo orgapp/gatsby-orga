@@ -97,6 +97,12 @@ Great clouds overhead
 <p>And a Paragraph.</p>
 #+END_EXPORT
 
-* Image
+* Links
 
-[[https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png][GitHub]]
+[[https://upload.wikimedia.org/wikipedia/commons/a/a6/Org-mode-unicorn.svg][image from URL]]
+
+[[file:logo.svg][image from local file]]
+
+[[./logo.svg][image with relative path]]
+
+[[./syntax.pdf][pdf file from local path]]
