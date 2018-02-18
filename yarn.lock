@@ -3221,16 +3221,15 @@ gatsby-source-filesystem@^1.5.20:
     slash "^1.0.0"
     valid-url "^1.0.9"
 
-gatsby-transformer-orga@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-0.2.9.tgz#c6e6e5a27385e682e85e09f553111d094bbf4bde"
+gatsby-transformer-orga@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-0.2.10.tgz#d49451482871cd19f4da285e65db529145a296c4"
   dependencies:
     bluebird "^3.5.1"
     graphql-type-json "^0.1.4"
     hast-util-to-html "^3.1.0"
     mime "^2.2.0"
     oast-to-hast "^0.2.7"
-    org "^0.2.0"
     orga "^0.2.7"
     rehype-stringify "^3.0.0"
     unified "^6.1.6"
@@ -5420,10 +5419,6 @@ optimist@^0.6.1, optimist@~0.6.0, optimist@~0.6.1:
   dependencies:
     minimist "~0.0.1"
     wordwrap "~0.0.2"
-
-org@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/org/-/org-0.2.0.tgz#d76378387dc506fb8e3ccff73a0ad04e3afc6391"
 
 orga@^0.2.7:
   version "0.2.7"
