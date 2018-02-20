@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{382:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Gatsby Orga Starter"}},allOrga:{edges:[{node:{fields:{slug:"/syntax/"},meta:{title:"Orga with Gatsby",date:"2018-01-01"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-1639579e1c99abc1462c.js.map

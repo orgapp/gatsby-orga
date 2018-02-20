@@ -9,12 +9,12 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b02ab1325d65ff5b15df.js",
-      "component---src-layouts-index-js-b02ab1325d65ff5b15df.js.map"
+      "component---src-layouts-index-js-ecc0376e8ce85a414f9b.js",
+      "component---src-layouts-index-js-ecc0376e8ce85a414f9b.js.map"
     ],
     "path---index": [
-      "path---index-1639579e1c99abc1462c.js",
-      "path---index-1639579e1c99abc1462c.js.map"
+      "path---index-2b4eb76541773c267cf5.js",
+      "path---index-2b4eb76541773c267cf5.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -28,18 +28,22 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---another-org-file": [
+      "path---another-org-file-4ee43d69c6e06fe9f34e.js",
+      "path---another-org-file-4ee43d69c6e06fe9f34e.js.map"
+    ],
     "component---src-templates-post-js": [
       "component---src-templates-post-js-ae7367c3abc86192db7a.js",
       "component---src-templates-post-js-ae7367c3abc86192db7a.js.map"
     ],
     "path---syntax": [
-      "path---syntax-dc6e72bfb9f895681f91.js",
-      "path---syntax-dc6e72bfb9f895681f91.js.map"
+      "path---syntax-ea6e03ee20c7e59f963d.js",
+      "path---syntax-ea6e03ee20c7e59f963d.js.map"
     ],
     "app": [
-      "app-b8d3bfc3cd0a03de5bb1.js",
+      "app-8c14302a9fd398ecad91.js",
       "build-js-styles.css",
-      "app-b8d3bfc3cd0a03de5bb1.js.map",
+      "app-8c14302a9fd398ecad91.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
