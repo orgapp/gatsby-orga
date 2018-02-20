@@ -1,7 +1,7 @@
 #+TITLE: Orga with Gatsby
 #+DATE: 2018-01-01
 
-* Emphasis
+* Emphasis (can be in _headline_ too)
 
 [[https://github.com/xiaoxinghu/orgajs][Here's]] to the *crazy* ones, the /misfits/, the _rebels_, the ~troublemakers~,
 the round pegs in the +round+ square holes...
@@ -83,11 +83,11 @@ Great clouds overhead
 
 * Table
 
-| Name         | Species    | Gender | Role         |
-|--------------+------------+--------+--------------|
-| Bruce Wayne  | Human      | M      | Batman       |
-| Clark Kent   | Kryptonian | M      | Superman     |
-| Diana Prince | Amazonian  | F      | Wonder Woman |
+| Name           | Species      | Gender | Role         |
+|----------------+--------------+--------+--------------|
+| *Bruce Wayne*  | +Bat+ Human  | M      | [[https://en.wikipedia.org/wiki/Batman][Batman]]       |
+| _Clark Kent_   | =Kryptonian= | M      | [[https://en.wikipedia.org/wiki/Superman][Superman]]     |
+| /Diana Prince/ | ~Amazonian~  | F      | [[https://en.wikipedia.org/wiki/Wonder_Woman][Wonder Woman]] |
 * Export
 
 #+HTML: <small>small text</small>
@@ -106,3 +106,5 @@ Great clouds overhead
 [[./logo.svg][image with relative path]]
 
 [[./syntax.pdf][pdf file from local path]]
+
+[[file:another_org_file.org][link to another org file]]

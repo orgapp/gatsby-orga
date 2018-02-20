@@ -1,0 +1,5 @@
+#+TITLE: Another Org File
+
+Here is another org file.
+
+[[file:syntax.org][go back]]
