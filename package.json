@@ -23,10 +23,9 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "dev": "rm -rf .cache && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf .cache public",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
