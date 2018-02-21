@@ -10,6 +10,10 @@ the round pegs in the +round+ square holes...
 
 ------
 
+* Footnote
+
+This[fn:1] is a footnote.
+
 * Blocks
 
 Code Blocks.
@@ -108,3 +112,11 @@ Great clouds overhead
 [[./syntax.pdf][pdf file from local path]]
 
 [[file:another_org_file.org][link to another org file]]
+
+* Footnotes
+
+[fn:1] And this is the content of the footnote.
+And this is another line.
+#+BEGIN_SRC swift
+console.log(`code block works too`)
+#+END_SRC
