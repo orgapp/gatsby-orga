@@ -85,6 +85,14 @@ Great clouds overhead
 - [-] Test
 - [ ] Ship
 
+ 
+** Multi-line List Items
+- *Apple* is an American multinational technology company headquartered in
+  Cupertino, California that designs, develops, and sells consumer electronics,
+  computer software, and online services.
+- Orange
+- Banana
+
 * Table
 
 | Name           | Species      | Gender | Role         |
