@@ -2,9 +2,49 @@
 # yarn lockfile v1
 
 
+"@types/configstore@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
+
+"@types/debug@^0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-0.0.29.tgz#a1e514adfbd92f03a224ba54d693111dbf1f3754"
+
+"@types/events@*":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
+
+"@types/get-port@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@types/get-port/-/get-port-0.0.4.tgz#eb6bb7423d9f888b632660dc7d2fd3e69a35643e"
+
+"@types/glob@^5.0.30":
+  version "5.0.35"
+  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-5.0.35.tgz#1ae151c802cece940443b5ac246925c85189f32a"
+  dependencies:
+    "@types/events" "*"
+    "@types/minimatch" "*"
+    "@types/node" "*"
+
 "@types/history@*", "@types/history@^4.6.2":
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/@types/history/-/history-4.6.2.tgz#12cfaba693ba20f114ed5765467ff25fdf67ddb0"
+
+"@types/minimatch@*":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
+
+"@types/mkdirp@^0.3.29":
+  version "0.3.29"
+  resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.3.29.tgz#7f2ad7ec55f914482fc9b1ec4bb1ae6028d46066"
+
+"@types/node@*":
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.0.tgz#d3480ee666df9784b1001a1872a2f6ccefb6c2d7"
+
+"@types/node@^7.0.11":
+  version "7.0.57"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.57.tgz#eed149b2c75cdbd7b9823c3fd64ecddbdc68ed9c"
 
 "@types/react-router-dom@^4.2.2":
   version "4.2.3"
@@ -24,6 +64,10 @@
 "@types/react@*":
   version "16.0.36"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.36.tgz#ceb5639013bdb92a94147883052e69bb2c22c69b"
+
+"@types/tmp@^0.0.32":
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.0.32.tgz#0d3cb31022f8427ea58c008af32b80da126ca4e3"
 
 "@zeit/check-updates@1.0.5":
   version "1.0.5"
@@ -1707,9 +1751,9 @@ cli-width@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
 
-clipboard@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
+clipboard@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.0.tgz#4661dc972fb72a4c4770b8db78aa9b1caef52b50"
   dependencies:
     good-listener "^1.2.2"
     select "^1.1.2"
@@ -1825,6 +1869,10 @@ comma-separated-tokens@^1.0.1:
   resolved "https://registry.yarnpkg.com/comma-separated-tokens/-/comma-separated-tokens-1.0.4.tgz#72083e58d4a462f01866f6617f4d98a3cd3b8a46"
   dependencies:
     trim "0.0.1"
+
+command-exists@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/command-exists/-/command-exists-1.2.2.tgz#12819c64faf95446ec0ae07fe6cafb6eb3708b22"
 
 commander@2.11.0:
   version "2.11.0"
@@ -2227,7 +2275,7 @@ death@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/death/-/death-1.1.0.tgz#01aa9c401edd92750514470b8266390c66c67318"
 
-debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.6, debug@^2.6.8, debug@~2.6.4, debug@~2.6.6, debug@~2.6.9:
+debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8, debug@~2.6.4, debug@~2.6.6, debug@~2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
@@ -2356,6 +2404,27 @@ detect-port@1.2.2, detect-port@^1.2.1:
   dependencies:
     address "^1.0.1"
     debug "^2.6.0"
+
+devcert-san@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/devcert-san/-/devcert-san-0.3.3.tgz#aa77244741b2d831771c011f22ee25e396ad4ba9"
+  dependencies:
+    "@types/configstore" "^2.1.1"
+    "@types/debug" "^0.0.29"
+    "@types/get-port" "^0.0.4"
+    "@types/glob" "^5.0.30"
+    "@types/mkdirp" "^0.3.29"
+    "@types/node" "^7.0.11"
+    "@types/tmp" "^0.0.32"
+    command-exists "^1.2.2"
+    configstore "^3.0.0"
+    debug "^2.6.3"
+    eol "^0.8.1"
+    get-port "^3.0.0"
+    glob "^7.1.1"
+    mkdirp "^0.5.1"
+    tmp "^0.0.31"
+    tslib "^1.6.0"
 
 diffie-hellman@^5.0.0:
   version "5.0.2"
@@ -2548,6 +2617,10 @@ enhanced-resolve@~0.9.0:
 entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
+
+eol@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/eol/-/eol-0.8.1.tgz#defc3224990c7eca73bb34461a56cf9dc24761d0"
 
 err-code@^1.0.0:
   version "1.1.2"
@@ -3138,15 +3211,22 @@ function-bind@^1.0.2:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
-gatsby-1-config-css-modules@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/gatsby-1-config-css-modules/-/gatsby-1-config-css-modules-1.0.9.tgz#ae7ebffcaea4b1cc821951b71c123107d697bfaa"
+gatsby-1-config-css-modules@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/gatsby-1-config-css-modules/-/gatsby-1-config-css-modules-1.0.11.tgz#5a102c6b11f9a6963b3892ecc959511e1688e525"
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-cli@^1.1.41:
-  version "1.1.41"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-1.1.41.tgz#02345b4c7a17dd26f71ef94e6804388c78d2489e"
+gatsby-1-config-extract-plugin@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-1-config-extract-plugin/-/gatsby-1-config-extract-plugin-1.0.2.tgz#2ca0779f212009d06e444cb084d182f957b7190c"
+  dependencies:
+    babel-runtime "^6.26.0"
+    extract-text-webpack-plugin "^1.0.1"
+
+gatsby-cli@^1.1.48:
+  version "1.1.48"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-1.1.48.tgz#7ce1e15e5c02195ff4d8981a23a385e51e7d6cf0"
   dependencies:
     babel-code-frame "^6.26.0"
     babel-runtime "^6.26.0"
@@ -3166,9 +3246,9 @@ gatsby-cli@^1.1.41:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
-gatsby-link@^1.6.37:
-  version "1.6.37"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.37.tgz#d132290c0239dc2e11a9106353c586f969194673"
+gatsby-link@^1.6.39:
+  version "1.6.39"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.39.tgz#4189d26a66476b61fb524c2c8dd97b74aee728d4"
   dependencies:
     "@types/history" "^4.6.2"
     "@types/react-router-dom" "^4.2.2"
@@ -3176,38 +3256,38 @@ gatsby-link@^1.6.37:
     prop-types "^15.5.8"
     ric "^1.3.0"
 
-gatsby-module-loader@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/gatsby-module-loader/-/gatsby-module-loader-1.0.10.tgz#32560de487ea5523097917bc1dc76b9a1247bbe9"
+gatsby-module-loader@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/gatsby-module-loader/-/gatsby-module-loader-1.0.11.tgz#35f269456f6a6d85c693bdc2b3b3b3432987f55b"
   dependencies:
     babel-runtime "^6.26.0"
     loader-utils "^0.2.16"
 
-gatsby-plugin-react-helmet@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-2.0.5.tgz#cb63ca1c9b6004a1214190cfbe1d241727b1b7d5"
+gatsby-plugin-react-helmet@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-2.0.8.tgz#26928bfd38f6828f479d76393839523ddf85b005"
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-typography@^1.7.14:
-  version "1.7.14"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.14.tgz#911baf7e5b5db1478f4aca7a50ad57622a32560a"
+gatsby-plugin-typography@^1.7.18:
+  version "1.7.18"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.18.tgz#391f300afae465d3aa384d6630ce9df172eba3b8"
   dependencies:
     babel-runtime "^6.26.0"
     react-typography "^0.16.1"
     typography "^0.16.0"
 
-gatsby-react-router-scroll@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.11.tgz#1ad3bdfc7f0a897abf24e4d89111ee49de516691"
+gatsby-react-router-scroll@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.14.tgz#7e3b59c2266772030c6bfeaa8914c71dd3c12c59"
   dependencies:
     babel-runtime "^6.26.0"
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-filesystem@^1.5.21:
-  version "1.5.21"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-1.5.21.tgz#4a098b29ea650f0ec71d460c7989ecee1d575123"
+gatsby-source-filesystem@^1.5.27:
+  version "1.5.27"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-1.5.27.tgz#0063e9e4c87f9172a1a08296d1c4c27d03f97d01"
   dependencies:
     babel-cli "^6.26.0"
     babel-runtime "^6.26.0"
@@ -3221,24 +3301,24 @@ gatsby-source-filesystem@^1.5.21:
     slash "^1.0.0"
     valid-url "^1.0.9"
 
-gatsby-transformer-orga@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-0.4.1.tgz#9308979eb654106548b1d56e35aa2e8d6ba388a0"
+gatsby-transformer-orga@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-0.5.1.tgz#06e178699068b057f99dcddf4f9abee12d4b85fd"
   dependencies:
     bluebird "^3.5.1"
-    graphql-type-json "^0.1.4"
+    graphql-type-json "^0.2.0"
     hast-util-to-html "^3.1.0"
     mime "^2.2.0"
-    oast-to-hast "^0.4.1"
-    orga "^0.4.1"
+    oast-to-hast "^0.5.1"
+    orga "^0.5.1"
     rehype-stringify "^3.0.0"
     unified "^6.1.6"
     unist-builder "^1.0.2"
     unist-util-visit "^1.3.0"
 
-gatsby@^1.9.206:
-  version "1.9.206"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.206.tgz#7576a4a479ff56e6df0d9563f023bfd217d010c5"
+gatsby@^1.9.241:
+  version "1.9.241"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.241.tgz#550f04177851c44be3bb235adf8461d5b1d89624"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -3267,26 +3347,27 @@ gatsby@^1.9.206:
     debug "^2.6.0"
     del "^3.0.0"
     detect-port "^1.2.1"
+    devcert-san "^0.3.3"
     domready "^1.0.8"
     dotenv "^4.0.0"
     express "^4.14.0"
     express-graphql "^0.6.6"
-    extract-text-webpack-plugin "^1.0.1"
     fast-levenshtein "~2.0.4"
     file-loader "^0.9.0"
     flat "^2.0.1"
     friendly-errors-webpack-plugin "^1.6.1"
     front-matter "^2.1.0"
     fs-extra "^4.0.1"
-    gatsby-1-config-css-modules "^1.0.9"
-    gatsby-cli "^1.1.41"
-    gatsby-link "^1.6.37"
-    gatsby-module-loader "^1.0.10"
-    gatsby-react-router-scroll "^1.0.11"
+    gatsby-1-config-css-modules "^1.0.11"
+    gatsby-1-config-extract-plugin "^1.0.2"
+    gatsby-cli "^1.1.48"
+    gatsby-link "^1.6.39"
+    gatsby-module-loader "^1.0.11"
+    gatsby-react-router-scroll "^1.0.14"
     glob "^7.1.1"
     graphql "^0.11.7"
     graphql-relay "^0.5.1"
-    graphql-skip-limit "^1.0.10"
+    graphql-skip-limit "^1.0.11"
     history "^4.6.2"
     invariant "^2.2.2"
     is-relative "^0.2.1"
@@ -3379,6 +3460,10 @@ get-caller-file@^1.0.1:
 get-params@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/get-params/-/get-params-0.1.2.tgz#bae0dfaba588a0c60d7834c0d8dc2ff60eeef2fe"
+
+get-port@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/get-port/-/get-port-3.2.0.tgz#dd7ce7de187c06c8bf353796ac71e099f0980ebc"
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -3575,16 +3660,16 @@ graphql-relay@^0.5.1:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/graphql-relay/-/graphql-relay-0.5.4.tgz#58050cfe16118595f82ab3aabfc974546ce755a8"
 
-graphql-skip-limit@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/graphql-skip-limit/-/graphql-skip-limit-1.0.10.tgz#0923b8b2e333cfc5d47283fa3e376657a1378452"
+graphql-skip-limit@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/graphql-skip-limit/-/graphql-skip-limit-1.0.11.tgz#c6970d11bdfe7aa001f96c8ba41b9a93a6dc805c"
   dependencies:
     babel-runtime "^6.26.0"
     graphql "^0.11.7"
 
-graphql-type-json@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.1.4.tgz#89f13f5d32ce08c9a76c79fdf9c1968384d81a4e"
+graphql-type-json@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.2.0.tgz#34c1a5fc2b7707a367c436482b253dbeebf1130e"
 
 graphql@^0.11.3, graphql@^0.11.7:
   version "0.11.7"
@@ -5300,12 +5385,12 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-oast-to-hast@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/oast-to-hast/-/oast-to-hast-0.4.1.tgz#fec68de09f050e74ab0aeb3161193e2c9e26c9ec"
+oast-to-hast@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/oast-to-hast/-/oast-to-hast-0.5.1.tgz#e5f0b43eb20e15c3d40d35e4d24e09973985b494"
   dependencies:
     mime "^2.2.0"
-    prismjs "^1.11.0"
+    prismjs "^1.13.0"
     unist-builder "^1.0.2"
 
 oauth-sign@~0.8.1, oauth-sign@~0.8.2:
@@ -5420,9 +5505,9 @@ optimist@^0.6.1, optimist@~0.6.0, optimist@~0.6.1:
     minimist "~0.0.1"
     wordwrap "~0.0.2"
 
-orga@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/orga/-/orga-0.4.1.tgz#5cea236888dc0785ddd176e90b8570ea2f3c48c0"
+orga@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/orga/-/orga-0.5.1.tgz#1e2c908bbe0c503e60eb288d6c26148ec84f9256"
 
 original@>=0.0.5:
   version "1.0.0"
@@ -5456,7 +5541,7 @@ os-locale@^2.0.0:
     lcid "^1.0.0"
     mem "^1.1.0"
 
-os-tmpdir@^1.0.0, os-tmpdir@^1.0.1, os-tmpdir@~1.0.2:
+os-tmpdir@^1.0.0, os-tmpdir@^1.0.1, os-tmpdir@~1.0.1, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
@@ -6256,9 +6341,9 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.10.2.tgz#1af8356d1842276a99a5b5529c82dd9e9ad3cc93"
+prettier@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.11.1.tgz#61e43fc4cd44e68f2b0dfc2c38cd4bb0fccdcc75"
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
@@ -6271,11 +6356,11 @@ pretty-error@^2.1.1:
     renderkid "^2.0.1"
     utila "~0.4"
 
-prismjs@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.11.0.tgz#297aef33eb79421bfdb19273a5092ca515970d29"
+prismjs@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.13.0.tgz#edcc14a90bbd72a03e5ffd2bab81a04c79a607a6"
   optionalDependencies:
-    clipboard "^1.7.1"
+    clipboard "^2.0.0"
 
 private@^0.1.6, private@^0.1.7:
   version "0.1.8"
@@ -7836,6 +7921,12 @@ tiny-emitter@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
 
+tmp@^0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.31.tgz#8f38ab9438e17315e5dbd8b3657e8bfb277ae4a7"
+  dependencies:
+    os-tmpdir "~1.0.1"
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -7912,6 +8003,10 @@ trim@0.0.1:
 trough@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.1.tgz#a9fd8b0394b0ae8fff82e0633a0a36ccad5b5f86"
+
+tslib@^1.6.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
 
 tty-browserify@0.0.0:
   version "0.0.0"
