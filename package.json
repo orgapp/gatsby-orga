@@ -6,8 +6,6 @@
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
-    "gatsby-plugin-react-helmet": "^2.0.8",
-    "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-orga": "^0.5.1",
     "mime": "^2.2.0",
