@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 class BlogIndex extends React.Component {
   render() {
