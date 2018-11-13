@@ -4,11 +4,13 @@
   "version": "1.0.0",
   "author": "Xiaoxing Hu <dawnstar.hu@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.241",
-    "gatsby-link": "^1.6.39",
-    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby": "^2.0.47",
+    "gatsby-link": "^2.0.6",
+    "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-orga": "^0.5.1",
     "mime": "^2.2.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
     "react-helmet": "^5.2.0",
     "typography-plugin-code": "^0.16.11",
     "typography-theme-github": "^0.15.10"
