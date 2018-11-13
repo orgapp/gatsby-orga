@@ -1,11 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-
-import Header from '../components/Header'
-import './index.css'
+import Header from './Header'
 import 'prismjs/themes/prism-solarizedlight.css'
+import './layout.css'
 
-const TemplateWrapper = ({ children }) => (
+export default ({ children }) => (
   <div>
     <Header />
     <div
@@ -16,13 +14,7 @@ const TemplateWrapper = ({ children }) => (
         paddingTop: 0,
       }}
     >
-      {children()}
+      {children}
     </div>
   </div>
 )
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
-
-export default TemplateWrapper

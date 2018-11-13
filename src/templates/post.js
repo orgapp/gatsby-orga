@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -7,13 +8,13 @@ class BlogPostTemplate extends React.Component {
     const { title, date } = post.meta
 
     return (
-      <div>
+      <Layout>
         <center>
           <h1>{title}</h1>
           <small>{date}</small>
         </center>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
+      </Layout>
     )
   }
 }

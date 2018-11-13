@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 class BlogIndex extends React.Component {
   render() {
@@ -18,11 +19,11 @@ class BlogIndex extends React.Component {
       )
     })
     return (
-      <div>
+      <Layout>
         <h1>Hi org-mode people</h1>
         <p>Welcome to your new org-mode based Gatsby site.</p>
         {_posts}
-      </div>
+      </Layout>
     )
   }
 }
