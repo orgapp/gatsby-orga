@@ -1,5 +1,5 @@
-#+TITLE: Orga with Gatsby
-#+DATE: 2018-01-01
+#+TITLE: Supoprted Syntax
+#+DATE: [2018-12-23 Sun]
 
 * Emphasis (can be in _headline_ too)
 

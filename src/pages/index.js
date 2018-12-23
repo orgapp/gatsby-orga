@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 class BlogIndex extends React.Component {
   render() {
-    const posts = this.props.data.allOrga.edges
+    const posts = this.props.data.allOrgContent.edges
     const _posts = posts.map ( ({ node }) => {
       const title = node.meta.title || node.fields.slug
       const date = node.meta.date || 'no date'
@@ -37,13 +37,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    allOrga {
+    allOrgContent {
       edges {
         node {
           fields {
             slug
           }
-          meta
+          meta { title date }
         }
       }
     }

@@ -9,7 +9,7 @@ exports.createPages = ({ graphql, actions }) => {
     graphql(
       `
         {
-          allOrga(
+          allOrgContent(
             limit: 1000
           ) {
             edges {
@@ -28,7 +28,7 @@ exports.createPages = ({ graphql, actions }) => {
       }
 
       // Create blog posts pages.
-      result.data.allOrga.edges.forEach(edge => {
+      result.data.allOrgContent.edges.forEach(edge => {
         createPage({
           path: edge.node.fields.slug, // required
           component: slash(blogPostTemplate),
@@ -44,24 +44,24 @@ exports.createPages = ({ graphql, actions }) => {
 }
 
 // Add custom url pathname for blog posts.
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+// exports.onCreateNode = ({ node, actions, getNode }) => {
+//   const { createNodeField } = actions
 
-  if (node.internal.type === `File`) {
-    const folder = node.relativeDirectory
-    const fileName = path.parse(node.absolutePath).name
-    const slug = `/${path.join(folder, fileName)}/`
-    createNodeField({ node, name: `slug`, value: slug })
-  } else if (
-    node.internal.type === `Orga` &&
-      typeof node.slug === `undefined`
-  ) {
-    const fileNode = getNode(node.parent)
-    createNodeField({
-      node,
-      name: `slug`,
-      value: fileNode.fields.slug,
-    })
+//   if (node.internal.type === `File`) {
+//     const folder = node.relativeDirectory
+//     const fileName = path.parse(node.absolutePath).name
+//     const slug = `/${path.join(folder, fileName)}/`
+//     createNodeField({ node, name: `slug`, value: slug })
+//   } else if (
+//     node.internal.type === `Orga` &&
+//       typeof node.slug === `undefined`
+//   ) {
+//     const fileNode = getNode(node.parent)
+//     createNodeField({
+//       node,
+//       name: `slug`,
+//       value: fileNode.fields.slug,
+//     })
 
-  }
-}
+//   }
+// }

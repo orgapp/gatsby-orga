@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.orga
+    const post = this.props.data.orgContent
     const { title, date } = post.meta
 
     return (
@@ -23,9 +23,12 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    orga(fields: { slug: { eq: $slug }}) {
+    orgContent(fields: { slug: { eq: $slug }}) {
       html
-      meta
+      meta {
+        title
+        date
+      }
     }
   }
 `
