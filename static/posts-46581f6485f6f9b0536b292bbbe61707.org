@@ -1,0 +1,12 @@
+#+ORGA_PUBLISH_KEYWORD: PUBLISHED
+#+TODO: DRAFT | PUBLISHED
+
+* PUBLISHED My First Post
+  CLOSED: [2018-12-23 Sun 19:36]
+  This is my first post. Wanna see another one? [[It's From a Section][Here]].
+
+* PUBLISHED It's From a Section
+  CLOSED: [2018-12-23 Sun 19:36]
+  See, it's working. Also, these posts are generated from org-mode
+  sections. Yes, you can do that, or from an entire file if you
+  prefer. Like [[file:syntax.org][this one]]. Look at the [[file:posts.org][org file]] if you want.
