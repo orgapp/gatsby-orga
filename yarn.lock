@@ -4686,10 +4686,10 @@ gatsby-source-filesystem@^2.0.8:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-transformer-orga@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-1.0.1.tgz#d4be9fe7a8342dc9ce8fcd89776b616284b9b2d2"
-  integrity sha512-FO1Z+Iob7pK/5jk34FJ5saQes0xND212Iz5HwOdqDI6UYq0689N/PMFwuimuBcOX6AXgP8LhzJGcIcWhcJTUnQ==
+gatsby-transformer-orga@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-orga/-/gatsby-transformer-orga-1.0.2.tgz#42759fc5985a876a18dfe56073173d29799a61f8"
+  integrity sha512-T+W+5A/RBon0fTlgywEAd+lFV909Kyz2yZyBVUffcEN+iTWmi5dmkDIUAZVGta4Qh2O7tOgmqOnMTI9GKx+QMw==
   dependencies:
     bluebird "^3.5.3"
     hast-util-to-html "^5.0.0"

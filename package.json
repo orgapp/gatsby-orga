@@ -7,7 +7,7 @@
     "gatsby": "^2.0.47",
     "gatsby-plugin-typography": "^2.2.1",
     "gatsby-source-filesystem": "^2.0.8",
-    "gatsby-transformer-orga": "^1.0.1",
+    "gatsby-transformer-orga": "^1.0.2",
     "mime": "^2.2.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -26,7 +26,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "dev": "rm -rf .cache && gatsby develop",
+    "develop": "rm -rf .cache && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "clean": "rm -rf .cache public",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
