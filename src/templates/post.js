@@ -22,8 +22,8 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    orgContent(fields: { slug: { eq: $slug }}) {
+  query BlogPostQuery($id: String!) {
+    orgContent(id: { eq: $id }) {
       html
       meta {
         title
