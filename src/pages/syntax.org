@@ -3,7 +3,7 @@
 
 * Emphasis (can be in _headline_ too)
 
-[[https://github.com/xiaoxinghu/orgajs][Here's]] to the *crazy* ones, the /misfits/, the _rebels_, the ~troublemakers~,
+[[https://github.com/orgapp/orgajs][Here's]] to the *crazy* ones, the /misfits/, the _rebels_, the ~troublemakers~,
 the round pegs in the +round+ square holes...
 
 * Horizontal Rule
