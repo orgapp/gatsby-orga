@@ -7,8 +7,8 @@ class BlogIndex extends React.Component {
   render() {
     const posts = this.props.data.allOrgContent.edges
     const _posts = posts.map ( ({ node }) => {
-      const title = node.meta.title || node.fields.slug
-      const date = node.meta.date || 'no date'
+      const title = node.metadata.title || node.fields.slug
+      const date = node.metadata.date || 'no date'
       return (
         <div>
           <h3 style={{ marginBottom: '0.2em' }}>
@@ -43,7 +43,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
-          meta { title date }
+          metadata { title date }
         }
       }
     }
