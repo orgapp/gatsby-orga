@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.orgContent
-    const { title, date } = post.meta
+    const { title, date } = post.metadata
 
     return (
       <Layout>
@@ -25,7 +25,7 @@ export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
     orgContent(id: { eq: $id }) {
       html
-      meta {
+      metadata {
         title
         date
       }

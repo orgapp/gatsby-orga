@@ -37,7 +37,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   if (node.internal.type !== `OrgContent`) return
 
   const { createNodeField } = actions
-  const { category, export_file_name } = node.meta
+  const { category, export_file_name } = node.metadata
   const paths = [
     '/',
     category,
