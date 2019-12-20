@@ -17,8 +17,19 @@ This[fn:1] is a footnote.
 * Blocks
 
 Code Blocks.
-#+BEGIN_SRC javascript
-  Console.log(`Hello Org`)
+
+Using ~:exports code~
+#+BEGIN_SRC js :exports code
+  console.log(`Only the code should be exported, not the results`)
+#+END_SRC
+
+#+RESULTS:
+: Hello Org
+: undefined
+
+Using ~:exports none~
+#+BEGIN_SRC js :exports none
+  console.log(`This shouldn't be exported`)
 #+END_SRC
 
 Block Quote.
